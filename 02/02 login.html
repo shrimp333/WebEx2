@@ -1,0 +1,64 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<style>
+.page{
+    background-color: rgb(88 206 88);
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.login-box{
+    background-color: white;
+    padding: 30px;
+    margin: 0;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 7px rgb(33, 80, 33);
+}
+input[type = text],input[type = password]{
+    
+    width: 100%;
+    padding: 20px;
+    border: 0px;
+    outline: none;
+    background-color: rgb(238, 238, 238);
+    margin-top: 10px;
+}
+input[type = submit]{
+    width: 100%;
+    padding: 20px;
+    border: 0px;
+    outline: none;
+    background-color: rgb(41 203 82);
+    margin-top: 10px;
+    color:white;
+}
+input[type = submit]:hover{
+    background-color: rgb(36, 179, 71);
+    cursor:pointer;
+}
+p{
+    text-align: center;
+    color: rgb(161, 161, 161);
+}
+a{
+    color: rgb(36, 179, 71);
+    text-decoration: none;
+}
+</style>
+</head>
+<body class = "page">
+    <div class = "login-box">
+        <form>
+            <input type="text" placeholder="username"><br>
+            <input type="password" placeholder="password"><br>
+            <input type="submit" value = "LOGIN" >
+        </form> 
+        <p class = "centertext">Not registered? <a href="https://www.google.com">Create an account</a></p>
+    </div>
+</body>
+</html>
